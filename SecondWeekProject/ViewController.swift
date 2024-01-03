@@ -36,6 +36,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         print("2")
+        print("3")
         
         datePicker.preferredDatePickerStyle = .wheels
         datePicker.datePickerMode = .date // 날짜만 나오도록
