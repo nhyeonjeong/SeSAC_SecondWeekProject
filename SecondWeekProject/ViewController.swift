@@ -35,6 +35,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        print("2")
+        
         datePicker.preferredDatePickerStyle = .wheels
         datePicker.datePickerMode = .date // 날짜만 나오도록
         /* 내가 한 거
